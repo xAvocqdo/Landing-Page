@@ -3,13 +3,30 @@
 }
 
 .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
     background-color: #1F2937;
 }
 
-.titlepageimg {
-
+ul {
+    display: flex;
+    gap: 44px;
+    font-size: 18px;
 }
 
-ul {
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 
+.titlepageimg {
+    width: 64px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
 }
