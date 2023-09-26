@@ -1,5 +1,6 @@
 * {
     font-family: Roboto;
+    margin: 0;
 }
 
 .top {
@@ -29,4 +30,32 @@ a {
 .header {
     display: flex;
     background-color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.uhthinkofsomething {
+    margin: auto;
+}
+.headerreal {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.headergamingreal {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.signupfirst {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    scale: 1.1;
+}
+
+.middle {
+    
 }
