@@ -47,7 +47,7 @@ a {
     margin: auto;
 }
 .headerreal {
-    font-size: 24px;
+    font-size: 48px;
     color: #F9FAF8;
 }
 .headergamingreal {
@@ -66,68 +66,70 @@ a {
     scale: 1.1;
 }
 
+
 .middle {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
-    gap: 100px;
-    padding-left: 200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
     align-items: center;
-    justify-content: center;
+    width: 1000px;
+    height: 320px;
+    gap: 81px;
+    padding-left: 200px;
+    padding-bottom: 300px;
+    align-items: center;
 
 }
-
-/*
-.pmg1 {
-    display: flex;
+.midheader {
+    text-align: center;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    padding:3px; 
-    margin:5px
+    padding-bottom: 250px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 
-}
-.pmg2{
+
+figure {
     display: flex;
+    flex-direction: column;
+    justify-content: center;  
     width: 100px;
     height: 100px;
     border: 2px solid #3882F6;
     border-radius: 8px;
     padding:3px; 
     margin:5px
-}
-.pmg3{
-    display: flex;
-    flex-shrink: 4;
-    width: 95px;
-    height: 100px;
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    padding-right: 60px;
-    margin:5px;
-    
-}
-.pmg4{
-    display: flex;
-    width: 100px;
-    height: 100px;
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    padding:3px; 
-    margin:5px
+    }
+
+    .coding {
+        position: absolute;
+        padding-top: 135px;
+        padding-left: 35px;
+    }
+    figcaption {
+        padding-top:  80px; ;
+        margin: -50px;
+    }
+    .cool {
+        position: absolute;
+        padding-bottom: 40px;
+        padding-left: 45px;
+        padding-top:  180px;
+    }
+    .fancy {
+        padding-left: 43px;
+    }
+    .drag {
+        padding-left: 37px;
+    }
+/*.childfigure {
+    scale: 1.15;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 85px;
+    margin: -35px;
 }*/
-.pmg {
-    position: absolute;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    padding:3px; 
-    margin:5px
-    
-}
+
+
