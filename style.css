@@ -103,6 +103,14 @@ figure {
     margin:5px
     }
 
+    .fanc,
+    .dragon {
+        scale: 2;
+    }
+    .childfigure {
+        scale: 1.15;
+    }
+
     .coding {
         position: absolute;
         padding-top: 135px;
@@ -143,9 +151,37 @@ figure {
 .calltoaction {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: end;
-    justify-content: ;
-    width: 950px;
-    height: 500px;
+    flex-wrap:wrap;
+    justify-content: start;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 4px;
+    width: 800px;
+    height: 100px;
+    margin: 200px;
+    margin-left: 300px;
+    padding: 16px;
+    padding-right: 30px;
+}
+.strong {
+    font-size: 20px;
+}
+.signuptwoelectricboogaloo {
+    text-align: center;
+    font-size: 16px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bottom {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: auto;
 }
