@@ -124,12 +124,28 @@ figure {
     .drag {
         padding-left: 37px;
     }
-/*.childfigure {
-    scale: 1.15;
-    padding-left: 30px;
-    padding-right: 25px;
-    padding-top: 85px;
-    margin: -35px;
-}*/
 
 
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 400px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 16px;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    justify-content: ;
+    width: 950px;
+    height: 500px;
+}
